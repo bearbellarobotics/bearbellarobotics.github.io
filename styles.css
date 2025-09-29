@@ -1,6 +1,9 @@
 *{text-decoration: none;}
 
-.navbar{background: #FF8CBB; padding-right: 15px; padding-left: 15px; opactiy:0.4; border-radius: 15px;}
+.navbar{background: #FF8CBB; padding-right: 15px; padding-left: 15px; opactiy:0.4; border-radius: 15px;
+       position: absolute;
+  margin: 20px;
+  width: auto;}
 
 .navdiv{display: flex; align-items: center; justify-content: space-between;}
 
