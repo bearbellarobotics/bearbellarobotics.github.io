@@ -10,7 +10,8 @@ li{list-style: none; display: inline-block;}
 
 li a{color: white; font-size: 18px; font-weight: bold; margin-right: 25px;}
 
-
+body{background-image:url('images/BearBella.png');
+     width: 100%;}
 /*button{background-color: #E5C3AA; margin-left: 10px; border-radius: 10px; border-color: white; padding: 10px; width: 90px;}
 
 button a{color: white; font-weight: bold; font-size: 15px;}*/
