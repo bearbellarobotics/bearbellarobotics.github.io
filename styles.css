@@ -2,7 +2,7 @@
 
 .navbar{background: #FF8CBB; padding-right: 15px; padding-left: 15px; opactiy:0.4; border-radius: 15px;
   margin: 20px;
- position: absolute;
+ position: relative;
 }
 
 .navdiv{display: flex; align-items: center; justify-content: space-between;}
