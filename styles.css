@@ -16,7 +16,6 @@ button a{color: white; font-weight: bold; font-size: 15px;}*/
 .bg-img {
   /* The image used */
   background-image: url("images/BearBella.png");
-  border:0px;
 
   min-height: 380px;
 
@@ -29,7 +28,6 @@ button a{color: white; font-weight: bold; font-size: 15px;}*/
   /* Needed to position the navbar */
   position: relative;
 }
-body{border:0px;
-  margin: 0;   /* removes white gap around */
+body{margin: 0;   /* removes white gap around */
   padding: 0;  /* removes extra space */
 }
