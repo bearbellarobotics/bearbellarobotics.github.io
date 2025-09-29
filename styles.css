@@ -12,3 +12,17 @@ li a{color: white; font-size: 18px; font-weight: bold; margin-right: 25px;}
 /*button{background-color: #E5C3AA; margin-left: 10px; border-radius: 10px; border-color: white; padding: 10px; width: 90px;}
 
 button a{color: white; font-weight: bold; font-size: 15px;}*/
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
