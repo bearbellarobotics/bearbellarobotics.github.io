@@ -31,4 +31,7 @@ button a{color: white; font-weight: bold; font-size: 15px;}*/
   /* Needed to position the navbar */
   position: relative;
 }
-body{border:0px;}
+body{border:0px;
+  margin: 0;   /* removes white gap around */
+  padding: 0;  /* removes extra space */
+}
