@@ -18,6 +18,7 @@ button a{color: white; font-weight: bold; font-size: 15px;}*/
 .bg-img {
   /* The image used */
   background-image: url("images/BearBella.png");
+  border:0px;
 
   min-height: 380px;
 
