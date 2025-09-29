@@ -31,5 +31,6 @@ button a{color: white; font-weight: bold; font-size: 15px;}*/
   position: relative;
 }
 body{margin: 0;   /* removes white gap around */
-  padding: 0;  /* removes extra space */
+  padding: 0;
+     height:100%;/* removes extra space */
 }
