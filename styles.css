@@ -11,25 +11,12 @@
 li{list-style: none; display: inline-block;}
 
 li a{color: white; font-size: 18px; font-weight: bold; margin-right: 25px;}
-/*button{background-color: #E5C3AA; margin-left: 10px; border-radius: 10px; border-color: white; padding: 10px; width: 90px;}
 
-button a{color: white; font-weight: bold; font-size: 15px;}*/
 .bg-img {
-  /* The image used */
   background-image: url("images/BearBella.png");
-
   min-height: 380px;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-       
-  
-  /* Needed to position the navbar */
   position: absolute;
-}
-body{margin: 0;   /* removes white gap around */
-  padding: 0;
-     height:100%;/* removes extra space */
 }
