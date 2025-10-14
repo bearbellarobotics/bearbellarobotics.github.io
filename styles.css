@@ -12,11 +12,11 @@ li{list-style: none; display: inline-block;}
 
 li a{color: white; font-size: 18px; font-weight: bold; margin-right: 25px;}
 
-.bg-img {
+/*.bg-img {
   background-image: url("images/BearBella.png");
   min-height: 380px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: absolute;
-}
+}*/
