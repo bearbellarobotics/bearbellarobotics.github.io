@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #FFE5F0, #FFF0F7);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(255, 140, 187, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(255, 140, 187, 0.3);
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: #FF8CBB;
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.page-header h1 {
+  font-size: 56px;
+  color: #FF8CBB;
+  margin-bottom: 15px;
+}
+
+.page-header p {
+  font-size: 20px;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 40px;
+}
+
+/* Why Sponsor Section */
+.why-sponsor {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 60px;
+  box-shadow: 0 10px 30px rgba(255, 140, 187, 0.2);
+}
+
+.why-sponsor h2 {
+  font-size: 36px;
+  color: #FF8CBB;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.why-sponsor p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sponsor Tiers */
+.sponsor-tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.tier-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(255, 140, 187, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 3px solid transparent;
+}
+
+.tier-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 50px rgba(255, 140, 187, 0.35);
+}
+
+.tier-card.platinum {
+  border-color: #E5E4E2;
+}
+
+.tier-card.gold {
+  border-color: #FFD700;
+}
+
+.tier-card.silver {
+  border-color: #C0C0C0;
+}
+.tier-card.diamond {
+  border-color: #a8bde6;
+}
+.tier-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.tier-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FF8CBB;
+  margin-bottom: 15px;
+}
+
+.tier-amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.tier-benefits {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.tier-benefits li {
+  padding: 10px 0;
+  color: #666;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tier-benefits li:before {
+  content: "✓ ";
+  color: #FF8CBB;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sponsor-btn {
+  background: #FF8CBB;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+
+
+/* Current Sponsors */
+.current-sponsors {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(255, 140, 187, 0.2);
+}
+
+.current-sponsors h2 {
+  font-size: 36px;
+  color: #FF8CBB;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  align-items: center;
+}
+
+.sponsor-logo {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  background: #FFE5F0;
+  transform: scale(1.05);
+}
+
+.sponsor-logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.sponsor-logo a {
+  display: block;
+}
+
+/* Footer */
+.footer {
+  background: #FF8CBB;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+.footer p {
+  font-size: 16px;
+}
